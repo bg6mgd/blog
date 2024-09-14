@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>丁一随想</title><link>https://bg6mgd.github.io/blog</link><description>点滴记录</description><copyright>丁一随想</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://bg6mgd.github.io/blog</link></image><lastBuildDate>Sat, 14 Sep 2024 11:41:25 +0000</lastBuildDate><managingEditor>丁一随想</managingEditor><ttl>60</ttl><webMaster>丁一随想</webMaster><item><title>测试写代码</title><link>https://bg6mgd.github.io/blog/post/ce-shi-xie-dai-ma.html</link><description>‘’‘&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>丁一随想</title><link>https://bg6mgd.github.io/blog</link><description>点滴记录</description><copyright>丁一随想</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://bg6mgd.github.io/blog</link></image><lastBuildDate>Sat, 14 Sep 2024 11:42:49 +0000</lastBuildDate><managingEditor>丁一随想</managingEditor><ttl>60</ttl><webMaster>丁一随想</webMaster><item><title>测试写代码</title><link>https://bg6mgd.github.io/blog/post/ce-shi-xie-dai-ma.html</link><description>```&#13;
 class Solution:&#13;
     def twoSum(self, nums: list[int], target: int) -&gt; list[int]:&#13;
         hash_map = {}&#13;
         for i, num in enumerate(nums):&#13;
-            complement = target - num  &#13;
-            if complement in hash_map:  &#13;
-                return [hash_map[complement], i] &#13;
-            hash_map[num] = i  &#13;
-’‘’&#13;
+            complement = target - num  # 计算目标值需要的差值&#13;
+            if complement in hash_map:  # 查找哈希表中是否存在这个差值&#13;
+                return [hash_map[complement], i]  # 找到匹配项，返回两个索引&#13;
+            hash_map[num] = i  # 将当前数字和索引存入哈希表&#13;
+&#13;
+```&#13;
 。</description><guid isPermaLink="true">https://bg6mgd.github.io/blog/post/ce-shi-xie-dai-ma.html</guid><pubDate>Sat, 14 Sep 2024 11:40:39 +0000</pubDate></item><item><title>2024年9月14日在列表中找到两个数的和等于某个数，输出这两个数的索引</title><link>https://bg6mgd.github.io/blog/post/2024-nian-9-yue-14-ri-zai-lie-biao-zhong-zhao-dao-liang-ge-shu-de-he-deng-yu-mou-ge-shu-%EF%BC%8C-shu-chu-zhe-liang-ge-shu-de-suo-yin.html</link><description>class Solution:&#13;
     def twoSum(self, nums: List[int], target: int) -&gt; List[int]:&#13;
          hash_map = {}&#13;
