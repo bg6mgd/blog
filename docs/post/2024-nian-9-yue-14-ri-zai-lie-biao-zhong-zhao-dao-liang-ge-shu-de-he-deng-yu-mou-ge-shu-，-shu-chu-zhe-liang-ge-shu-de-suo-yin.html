@@ -10,7 +10,7 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="```
+<meta name="description" content="```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
          hash_map = {}
@@ -21,7 +21,7 @@ class Solution:
             hash_map[num] = i 
 ```。">
 <meta property="og:title" content="2024年9月14日在列表中找到两个数的和等于某个数，输出这两个数的索引">
-<meta property="og:description" content="```
+<meta property="og:description" content="```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
          hash_map = {}
@@ -35,7 +35,7 @@ class Solution:
 <meta property="og:url" content="https://bg6mgd.github.io/blog/post/2024-nian-9-yue-14-ri-zai-lie-biao-zhong-zhao-dao-liang-ge-shu-de-he-deng-yu-mou-ge-shu-%EF%BC%8C-shu-chu-zhe-liang-ge-shu-de-suo-yin.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
 <title>2024年9月14日在列表中找到两个数的和等于某个数，输出这两个数的索引</title>
-
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 
 </head>
@@ -101,15 +101,14 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><pre class="notranslate"><code class="notranslate">class Solution:
-    def twoSum(self, nums: List[int], target: int) -&gt; List[int]:
-         hash_map = {}
-        for i, num in enumerate(nums):
-            complement = target - num  # 计算目标值需要的差值
-            if complement in hash_map:  # 查找哈希表中是否存在这个差值
-                return [hash_map[complement], i]  # 找到匹配项，返回两个索引
-            hash_map[num] = i 
-</code></pre></div>
+<div class="markdown-body" id="postBody"><div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-k">class</span> <span class="pl-v">Solution</span>:
+    <span class="pl-k">def</span> <span class="pl-en">twoSum</span>(<span class="pl-s1">self</span>, <span class="pl-s1">nums</span>: <span class="pl-v">List</span>[<span class="pl-s1">int</span>], <span class="pl-s1">target</span>: <span class="pl-s1">int</span>) <span class="pl-c1">-&gt;</span> <span class="pl-v">List</span>[<span class="pl-s1">int</span>]:
+         <span class="pl-s1">hash_map</span> <span class="pl-c1">=</span> {}
+        <span class="pl-k">for</span> <span class="pl-s1">i</span>, <span class="pl-s1">num</span> <span class="pl-c1">in</span> <span class="pl-en">enumerate</span>(<span class="pl-s1">nums</span>):
+            <span class="pl-s1">complement</span> <span class="pl-c1">=</span> <span class="pl-s1">target</span> <span class="pl-c1">-</span> <span class="pl-s1">num</span>  <span class="pl-c"># 计算目标值需要的差值</span>
+            <span class="pl-k">if</span> <span class="pl-s1">complement</span> <span class="pl-c1">in</span> <span class="pl-s1">hash_map</span>:  <span class="pl-c"># 查找哈希表中是否存在这个差值</span>
+                <span class="pl-k">return</span> [<span class="pl-s1">hash_map</span>[<span class="pl-s1">complement</span>], <span class="pl-s1">i</span>]  <span class="pl-c"># 找到匹配项，返回两个索引</span>
+            <span class="pl-s1">hash_map</span>[<span class="pl-s1">num</span>] <span class="pl-c1">=</span> <span class="pl-s1">i</span> </pre></div></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
