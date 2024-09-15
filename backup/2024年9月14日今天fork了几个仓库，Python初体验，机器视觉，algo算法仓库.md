@@ -4,4 +4,6 @@
 
 2. **搭建了基于github的动手学python [https://bg6mgd.github.io/d2py/](https://bg6mgd.github.io/d2py/).**
 3. **刚看了一点算法教程 helloalgo。[https://www.hello-algo.com/chapter_hello_algo/](https://www.hello-algo.com/chapter_hello_algo/).**
+4. **OpenCV项目实战[https://charmve.github.io/L0CV-web/](https://charmve.github.io/L0CV-web/).**
+5. **opencv学习资料[https://charmve.github.io/computer-vision-in-action/#/](https://charmve.github.io/computer-vision-in-action/#/).**
 
