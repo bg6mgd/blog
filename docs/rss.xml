@@ -1,5 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>丁一随想</title><link>https://bg6mgd.github.io/blog</link><description>点滴记录</description><copyright>丁一随想</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://bg6mgd.github.io/blog</link></image><lastBuildDate>Mon, 28 Oct 2024 09:27:26 +0000</lastBuildDate><managingEditor>丁一随想</managingEditor><ttl>60</ttl><webMaster>丁一随想</webMaster><item><title>用python实现近三十日k线图 </title><link>https://bg6mgd.github.io/blog/post/yong-python-shi-xian-jin-san-shi-ri-k-xian-tu-%20.html</link><description>```&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>丁一随想</title><link>https://bg6mgd.github.io/blog</link><description>点滴记录</description><copyright>丁一随想</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://bg6mgd.github.io/blog</link></image><lastBuildDate>Thu, 14 Nov 2024 12:06:05 +0000</lastBuildDate><managingEditor>丁一随想</managingEditor><ttl>60</ttl><webMaster>丁一随想</webMaster><item><title>go语言 continue标签的用法</title><link>https://bg6mgd.github.io/blog/post/go-yu-yan-%20continue-biao-qian-de-yong-fa.html</link><description>```&#13;
+package main&#13;
+import 'fmt'&#13;
+func main() {&#13;
+LABEL1:&#13;
+	for i := 0; i &lt;= 5; i++ {&#13;
+		for j := 0; j &lt;= 5; j++ {&#13;
+			if j == 4 {&#13;
+				continue LABEL1&#13;
+			}&#13;
+			fmt.Println(i, j)&#13;
+		}&#13;
+	}&#13;
+}&#13;
+```&#13;
+//执行逻辑&#13;
+// 当i=0时，内层循环j从0到5逐一递增。</description><guid isPermaLink="true">https://bg6mgd.github.io/blog/post/go-yu-yan-%20continue-biao-qian-de-yong-fa.html</guid><pubDate>Thu, 14 Nov 2024 12:05:41 +0000</pubDate></item><item><title>用python实现近三十日k线图 </title><link>https://bg6mgd.github.io/blog/post/yong-python-shi-xian-jin-san-shi-ri-k-xian-tu-%20.html</link><description>```&#13;
 import akshare as ak&#13;
 import pandas as pd&#13;
 import mplfinance as mpf&#13;
